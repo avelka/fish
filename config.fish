@@ -31,3 +31,9 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# python 3.10
+set --export PATH "/opt/homebrew/python3.10:$PATH"
+
+# opam configuration
+source /Users/antoine/.opam/opam-init/init.fish >/dev/null 2>/dev/null; or true
